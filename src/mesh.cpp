@@ -2267,7 +2267,7 @@ void MOABMesh::initialize()
   }
 }
 
-void MOABMesh::prepare_for_tallies()
+void MOABMesh::prepare_for_point_location()
 {
   // if the KDTree has already been constructed, do nothing
   if (kdtree_)
